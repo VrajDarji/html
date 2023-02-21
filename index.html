@@ -1,15 +1,15 @@
-# html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>timepass</title>
 </head>
 <style>
     body{
-        background-color: rgb(202, 200, 200);
+        /* background-color: rgb(202, 200, 200); */
+        background-image:linear-gradient(#dd8d8d, #9ca3eb);
         
     }
     .container{
@@ -19,11 +19,41 @@
         background-color: aliceblue;
        box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2), 16px 16px 20px 16px rgba(0, 0, 0, 0.19);
     }
+    .tru{
+        margin-left:10px ;
+        width: 1500px;
+        text-align: center;
+        margin-top: 10px;
+        background-color: aliceblue;
+       /* box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2), 16px 16px 20px 16px rgba(0, 0, 0, 0.19); */
+    }
+    .tru h2{
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 400;
+        color: rgb(93, 80, 110);
+        font-size: 25px;
+
+    }
      nav{
+        display: flex;
         background-color: aliceblue;
         text-align: justify;
     }
+    .comp{
+display: flex;
+background-color: aliceblue;
+    }
+    .mmb{
+display: flex;
+background-color: aliceblue;
+    }
+    .yyb{
+display: flex;
+background-color: aliceblue;
+    }
     button.mm{
+        display: flex;
         align-items: center;
         color:black;
         background-color: rgb(255, 255, 255);
@@ -37,11 +67,12 @@
         /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
     }
     button.t{
+        display: flex;
         align-items: center;
         color:black;
         background-color: rgb(255, 255, 255);
         padding:10px 25px;
-        margin-left: 11px;
+        margin-left:7px;
         border: aquamarine;
         border-radius: 5px;
         box-shadow: 5px;
@@ -67,6 +98,7 @@
         /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
     }
     button.sur{
+        display: flex;
         align-items: center;
         color:black;
         background-color: rgb(255, 255, 255);
@@ -101,6 +133,17 @@
         margin-right: 60px;
         font-size: medium;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .tru img{
+        width: 250px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        filter: grayscale(100%);
+    }
+    .tru img:hover{
+        filter: contrast(100%);
     }
     .main img{
         display: flex;
@@ -158,26 +201,38 @@
         display: inline-block;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-   
+   .tru hr{
+    border-color: #9ca3eb;
+    border-style: double;
+    width: 250px;
+    text-align: center;
+   }
 </style>
 <body>
     <nav>
         <hr>
+        <div class="comp">
         <a href=""><button class="mm">COMPANY </button></a>
+    </div>
+    <div class="mmb">
         <a href=""><button class="t">Home</button></a>
         <a href=""><button class="t">Product</button></a>
         <a href=""><button class="t">Pricing</button></a>
         <a href=""><button class="t">Support</button></a>
+    </div>
+    <div class="yyb">
         <a href=""><button class="su">Sign In</button></a>
         <a href=""><button class="sur">Sign Up</button></a>
+    </div>
         <hr>
+
     </nav>
     <div class="container">
     <div class="sp">
         <br>
         <p>&nbsp;&nbsp;Special Promotion&nbsp;</p>
     </div>
-    <img width="500" align="right"src="https://classplusapp.com/growth/wp-content/uploads/2022/06/Importance-of-Group-Discussion-In-Teaching-1024x571.jpg" alt="">
+    <img width="500" align="right"src="C:\Users\jsc\OneDrive\Desktop\Importance-of-Group-Discussion-In-Teaching-1024x571.jpg" alt="">
 
     <div class="main">
         Make  Discuusion <br>Become Morebr <br>Comfortable
@@ -189,9 +244,14 @@
         <br><br>
         <hr>
     </div>
-    <div class="tru">
-
-    </div>
 </div>
+    <div class="tru">
+        <hr>
+        <h2>Our Sponsors</h2>
+        <hr>
+       <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" alt=""> <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" alt=""><img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" alt=""><img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" alt=""><img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" alt="">
+        <hr>
+    </div>
+
 </body>
 </html>
